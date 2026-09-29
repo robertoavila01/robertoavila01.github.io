@@ -15,23 +15,23 @@ window.PORTFOLIO = {
   showThemePicker: true,
 
   /* ---------- ABOUT YOU ---------- */
-  name: "Anthony Cardozo",
-  initials: "AC",                       // shown if you don't add a photo
+  name: "Roberto Avila",
+  initials: "RA",                       // shown if you don't add a photo
   photo: "",                            // optional: "images/headshot.jpg"
-  headline: "Software engineer building cloud systems and developer tools.",
+  headline: "Mechanical Engineering and Robotics student at the University of Texas at Austin",
   tagline: "I like building things people actually use.",   // used by the Story style
-  school: "CS at UT Austin, class of 2029",
+  school: "UT Austin, Class of 2027",
   location: "Austin, TX",
   status: "Looking for Summer 2027 internships",             // leave "" to hide
 
   about: "I've worked on AI evaluation at AWS, a browser-based compiler at a startup, and the platform my SHPE chapter runs on. Before all that, I built an online store for my family's candy business.",
 
   /* ---------- CONTACT ---------- */
-  email: "anthonycardozo06@gmail.com",
+  email: "robertoavila@utexas.edu",
   resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
   links: [
-    { label: "LinkedIn", url: "https://linkedin.com/in/anthony-cardozo-4361b6310" },
-    { label: "GitHub",   url: "https://github.com/your-username" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/roberto-avila-a88b8028b/" },
+    { label: "GitHub",   url: "https://github.com/robertoavila01" },
   ],
 
   /* ---------- EXPERIENCE ----------
@@ -40,36 +40,36 @@ window.PORTFOLIO = {
      business all count.                                           */
   experience: [
     {
-      role: "Software Engineering Intern",
-      org: "Amazon Web Services",
-      place: "Seattle, WA",
-      dates: "Summer 2026",
-      summary: "Built a weekly pipeline that grades an AI root-cause-analysis agent and found fixes that raised its average score 23%.",
-      tags: ["Lambda", "SQS", "Bedrock", "DynamoDB"],
+      role: "Packing Equipment & Automation Engineer",
+      org: "Procter & Gamble - Gillette",
+      place: "Boston, MA",
+      dates: "May 2026 – August 2026",
+      summary: "Evaluated a front-of-line robotic automation solution and designed a 5-product parallel gripper, simulating cycle time in RobotStudio before physical builds.",
+      tags: ["SolidWorks", "RobotStudio", "GD&T", "Automation"],
     },
     {
-      role: "Founding Engineer",
-      org: "One Dollar Computer",
+      role: "Chief Engineer",
+      org: "Aerial Solutions for Combating Emergencies & Natural Disasters",
       place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Built the cloud compiler that lets you write C or Rust in the browser and flash a RISC-V board in under 6 seconds.",
-      tags: ["C", "Rust", "GCP", "WebHID"],
+      dates: "June 2025 – May 2026",
+      summary: "Led a 30+ member org converting a gas ATV into an all-electric paraglider drone, hitting 90% of technical milestones over four months.",
+      tags: ["SolidWorks", "Leadership", "Machining"],
     },
     {
-      role: "Website Lead",
-      org: "SHPE UT Austin",
+      role: "Mechatronics Engineer",
+      org: "Aerial Solutions for Combating Emergencies & Natural Disasters",
       place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Lead the platform 400+ members use to earn points for convention and stipends. 1,000+ check-ins in the first 3 weeks.",
-      tags: ["React", "Supabase"],
+      dates: "October 2024 – May 2025",
+      summary: "Designed a servo-driven throttle control for a 7.5kW electric powertrain and integrated it with a Pixhawk flight controller for proof of concept.",
+      tags: ["SolidWorks", "Pixhawk", "Electronics"],
     },
     {
-      role: "Founder",
-      org: "Cardozo Enchilados",
-      place: "Dallas, TX",
-      dates: "2023 – now",
-      summary: "Run a Mexican candy business with my family: 1,500+ units sold, plus a Stripe storefront that replaced taking orders over DMs.",
-      tags: ["React", "Express", "MongoDB", "Stripe"],
+      role: "Community Outreach Chair",
+      org: "Society of Hispanic Professional Engineers",
+      place: "Austin, TX",
+      dates: "July 2024 – Present",
+      summary: "Founded a SHPE Jr. chapter for first-gen students, with 90% of members going on to apply to STEM programs in college.",
+      tags: ["Leadership", "Community Outreach"],
     },
   ],
 
@@ -79,27 +79,11 @@ window.PORTFOLIO = {
      "url" can link to a demo, GitHub repo, or photos ("" for none). */
   projects: [
     {
-      name: "HONK",
-      when: "Hackathon · Apr 2026",
-      stack: ["Next.js", "Gemini", "Firebase"],
-      summary: "A focus app that checks your screen every minute. Drift off task and it honks at you and takes your bread.",
-      result: "Distracted time dropped from 33% to 8%",
-      url: "",
-    },
-    {
-      name: "Landing Pad",
-      when: "Hackathon · Jul 2026",
-      stack: ["React", "TypeScript", "AWS CDK"],
-      summary: "A no-login city guide where outgoing interns pass down their favorite food, housing, and activity spots to the next class.",
-      result: "54 places on a color-coded map",
-      url: "",
-    },
-    {
-      name: "SHPE Chapter Platform",
-      when: "SHPE · 2026",
-      stack: ["React", "Supabase"],
-      summary: "Event check-ins, a points leaderboard, and an officer dashboard for our chapter.",
-      result: "1,000+ check-ins in 3 weeks",
+      name: "Projectile Shooting Robot",
+      when: "Class Project · Jan – May 2024",
+      stack: ["SolidWorks", "Laser Cutting", "3D Printing"],
+      summary: "Designed a spring-launcher robot with a laser-cut chassis and 3D-printed components built for durability and weight savings.",
+      result: "Consistently hit targets over 1 meter away",
       url: "",
     },
   ],
@@ -107,11 +91,12 @@ window.PORTFOLIO = {
   /* ---------- SKILLS ----------
      Group them however makes sense for your major.               */
   skills: [
-    { group: "Languages",  items: ["Java", "C", "Python", "JavaScript", "TypeScript", "x86 Assembly"] },
-    { group: "Frameworks", items: ["React", "Next.js", "Node", "Express", "Supabase", "Firebase"] },
-    { group: "Cloud",      items: ["AWS Lambda", "S3", "SQS", "DynamoDB", "Bedrock", "CDK"] },
+    { group: "Design & CAD",          items: ["SolidWorks", "GD&T", "Mechanical Design"] },
+    { group: "Robotics & Automation", items: ["RobotStudio", "Robotics & Automation", "Programming"] },
+    { group: "Manufacturing",         items: ["Machining", "Fabrication", "Soldering"] },
+    { group: "Other",                 items: ["Project Management"] },
   ],
 
   /* ---------- AWARDS (optional, use [] for none) ---------- */
-  awards: ["Amazon Future Engineer Scholar", "Dijkstra Scholar", "HITEC Scholar", "HSF Scholar"],
+  awards: [],
 };
